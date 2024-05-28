@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "simple-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["sh.aydin <sh.aydin@samolet.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+psycopg = "^3.1.19"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.30"
+redis = "^5.0.4"
+pydantic-settings = "^2.2.1"
+psycopg-binary = "^3.1.19"
+greenlet = "^3.0.3"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
